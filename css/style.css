@@ -3523,3 +3523,25 @@ body {
     display: none;
   }
 }
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+  color: #F9CE06;
+}
+.top-bar-section .right .has-dropdown.not-click a:hover {
+  color: #F9CE06;
+}
+.top-bar-section .right .has-dropdown.not-click a {
+  color: #000;
+  font-weight: bold;
+}
+.contain-to-grid.sticky .top-bar .top-bar-section .right li a:hover {
+  color: #F9CE06;
+}
+.contain-to-grid.sticky .top-bar .top-bar-section .right li a {
+  color: #000;
+  font-weight: bold;
+}
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+  color: #ccc;
+  font-weight: normal;
+}
